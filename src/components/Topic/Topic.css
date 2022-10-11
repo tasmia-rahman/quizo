@@ -9,3 +9,7 @@
     height: 200px;
     background-color: lavender;
 }
+
+.topic a {
+    text-decoration: none;
+}
