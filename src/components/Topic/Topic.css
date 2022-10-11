@@ -10,6 +10,14 @@
     background-color: lavender;
 }
 
+.topic button {
+    border: none;
+    background-color: mediumpurple;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
 .topic a {
     text-decoration: none;
+    color: white;
 }

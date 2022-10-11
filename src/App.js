@@ -29,13 +29,13 @@ function App() {
         {
           path: '/blog',
           element: <Blog></Blog>
+        },
+        {
+          path: '/quiz/:id',
+          loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
+          element: <Quiz></Quiz>
         }
       ]
-    },
-    {
-      path: '/quiz/:id',
-      loader: async ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`),
-      element: <Quiz></Quiz>
     },
     {
       path: '*',
