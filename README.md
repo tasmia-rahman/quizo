@@ -1,8 +1,8 @@
 # Quizo
 
-https://quizo9.netlify.app/
+# Website link: https://quizo9.netlify.app/
 
-The app is based on technology related quiz.
+The website is based on technology related quiz.
 
 It shows different topics of quiz.
 
