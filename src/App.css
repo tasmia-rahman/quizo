@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.error {
+  text-align: center;
+  margin-top: 300px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
