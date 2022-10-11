@@ -1,0 +1,11 @@
+.topic {
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+.topic img {
+    height: 200px;
+    background-color: lavender;
+}
