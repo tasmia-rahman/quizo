@@ -15,6 +15,10 @@ const Header = () => {
                     <Link to='/blog'>Blog</Link>
                 </div>
             </nav>
+            <div className='banner'>
+                <img src="https://img.freepik.com/premium-vector/quiz-text-speech-symbols-concept_149152-641.jpg?w=2000" alt="" />
+                <p>Learn something exciting!</p>
+            </div>
         </div>
     );
 };

@@ -13,3 +13,15 @@
     text-decoration: none;
     margin-right: 20px;
 }
+
+.banner img {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+}
+
+.banner p {
+    position: absolute;
+    bottom: 50px;
+    left: 42%;
+}
