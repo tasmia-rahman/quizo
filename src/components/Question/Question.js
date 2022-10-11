@@ -7,21 +7,24 @@ import './Question.css';
 const Question = ({ singleQuestion }) => {
     const { question, correctAnswer, options } = singleQuestion;
 
-    const notifyCorrect = () => toast('Correct answer');
-    const notifyIncorrect = () => toast('Wrong answer');
-
     const checkAnswer = (event) => {
         let answer = event.target.value;
         if (answer === correctAnswer) {
-            notifyCorrect();
+            toast('Correct answer');
         } else {
-            notifyIncorrect();
+            toast('Wrong answer');
         }
-
     }
+
+    const showAnswer = () => {
+        toast(correctAnswer);
+    }
+
     return (
         <div className='question-container'>
-
+            <div className='icon'>
+                <FontAwesomeIcon icon={faEye} onClick={showAnswer}></FontAwesomeIcon>
+            </div>
             <h3>Quiz: {question}</h3>
             <div className='options'>
                 {
