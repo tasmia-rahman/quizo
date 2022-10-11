@@ -1,0 +1,17 @@
+.blogs h2 {
+    color: mediumpurple;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.blog {
+    text-align: justify;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.blog h4 {
+    color: mediumpurple;
+}
