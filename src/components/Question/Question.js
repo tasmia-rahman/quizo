@@ -4,7 +4,7 @@ import React from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 import './Question.css';
 
-const Question = ({ singleQuestion }) => {
+const Question = ({ singleQuestion, index }) => {
     const { question, correctAnswer, options } = singleQuestion;
 
     const checkAnswer = (event) => {
@@ -25,7 +25,7 @@ const Question = ({ singleQuestion }) => {
             <div className='icon'>
                 <FontAwesomeIcon icon={faEye} onClick={showAnswer}></FontAwesomeIcon>
             </div>
-            <h3>Quiz: {question}</h3>
+            <h3>Quiz {index}: {question}</h3>
             <div className='options'>
                 {
                     options.map(option =>
